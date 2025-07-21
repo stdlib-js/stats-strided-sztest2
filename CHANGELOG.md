@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - correct calculation for x variance
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - **fix:** correct calculation for x variance _(by Philipp Burckhardt)_
 -   [`a12628a`](https://github.com/stdlib-js/stdlib/commit/a12628ad05e60a114fad1165481fd2da16f57886) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`d8dd116`](https://github.com/stdlib-js/stdlib/commit/d8dd11669e80ed814975d2c941aa315d878a9fb0) - **docs:** fix description _(by Athan Reines)_
 -   [`e1835a1`](https://github.com/stdlib-js/stdlib/commit/e1835a124a5ee8a1a3c763e5414ad86bc3a2256e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
