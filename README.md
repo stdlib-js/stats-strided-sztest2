@@ -58,6 +58,11 @@ Here, `μX` and `μY` are the true population means of samples `X` and `Y`, resp
 ## Usage
 
 ```javascript
+import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-sztest2/tags). For example,
+
+```javascript
 import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@v0.1.0-deno/mod.js';
 ```
 
@@ -198,7 +203,7 @@ var bool = ( out === results );
 ```javascript
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float32@deno/mod.js';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@v0.1.0-deno/mod.js';
+import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@deno/mod.js';
 
 var x = normal( 1000, 4.0, 2.0, {
     'dtype': 'float32'
