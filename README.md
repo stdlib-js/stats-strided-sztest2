@@ -58,7 +58,7 @@ Here, `μX` and `μY` are the true population means of samples `X` and `Y`, resp
 ## Usage
 
 ```javascript
-import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@deno/mod.js';
+import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@v0.1.1-deno/mod.js';
 ```
 
 #### sztest2( NX, NY, alternative, alpha, diff, sigmax, x, strideX, sigmay, y, strideY, out )
@@ -198,7 +198,7 @@ var bool = ( out === results );
 ```javascript
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float32@deno/mod.js';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@deno/mod.js';
+import sztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest2@v0.1.1-deno/mod.js';
 
 var x = normal( 1000, 4.0, 2.0, {
     'dtype': 'float32'
