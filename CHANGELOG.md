@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-13)
+## Unreleased (2026-07-30)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a4f9b17`](https://github.com/stdlib-js/stdlib/commit/a4f9b17b1b09503c952cc2715991f85945226922) - **chore:** resolve lint errors _(by Athan Reines)_
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
 -   [`f210de9`](https://github.com/stdlib-js/stdlib/commit/f210de942cbdf23ce50500989c4d96433d5ae53d) - **bench:** refactor to use string interpolation in `stats/strided` [(#11079)](https://github.com/stdlib-js/stdlib/pull/11079) _(by Lokesh Ranjan, Athan Reines)_
 
